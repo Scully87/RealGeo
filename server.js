@@ -1,15 +1,19 @@
 var express = require('express')
 var app = express();
 var expressLayouts = require('express-ejs-layouts');
+var cool = require('cool-ascii-faces');
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 app.use(expressLayouts);
 app.use(express.static(__dirname + '/public'));
-app.get('/',function(req, res) {
-  res.render("index");
+
+app.set('port', (process.env.PORT || 6969))
+
+app.get('/', function(request, response) {
+  response.send(cool());
 });
 
-app.listen(6969,function() {
-  console.log('listening on port 6969')
-});
+app.listen(app.get('port'), function() {
+  console.log("Node app is running at localhost:" + app.get('port'))
+})
