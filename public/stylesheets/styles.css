@@ -5,3 +5,7 @@ body {
 html, body, #map {
     height: 100%;
 }
+
+a {
+  display:none;
+}
