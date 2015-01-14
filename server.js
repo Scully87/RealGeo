@@ -1,7 +1,6 @@
 var express = require('express')
 var app = express();
 var expressLayouts = require('express-ejs-layouts');
-var cool = require('cool-ascii-faces');
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
@@ -11,7 +10,7 @@ app.use(express.static(__dirname + '/public'));
 app.set('port', (process.env.PORT || 6969))
 
 app.get('/', function(request, response) {
-  response.send(cool());
+  response.render("index");
 });
 
 app.listen(app.get('port'), function() {
