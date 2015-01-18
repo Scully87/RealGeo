@@ -40,16 +40,6 @@ nav h6 a:hover {
   text-decoration: none;
 }
 
-nav button {
-  border-radius: 50%;
-}
-
-nav button:active {
-  border-radius: 50%;
-  text-decoration: none;
-}
-
 nav {
-  /*color: #FFFFFF;*/
   padding-bottom: 10px;
 }
