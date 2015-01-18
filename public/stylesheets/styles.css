@@ -24,12 +24,13 @@ img {
   background-color: #000000;
 } 
 
-span {
+nav span {
+  margin-bottom: -10px;
   color: #FFFFFF;
-  font-size: 2em;
+  font-size: 4em;
 }
 
-nav h3 {
+nav h4 {
   color: #FFFFFF;
 }
 
@@ -37,12 +38,9 @@ nav h6 a {
   color: #FFFFFF;
   float: right;
   padding-right: 2.5%;
+  padding-bottom: 2.5%;
 }
 
 nav h6 a:hover {
   text-decoration: none;
-}
-
-nav {
-  padding-bottom: 10px;
 }
