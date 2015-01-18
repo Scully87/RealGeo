@@ -1,3 +1,9 @@
+$(document).ready(function() {
+    $('nav button').on("click", function() {
+        $('img').fadeOut(2500)
+    });
+});
+
 var x = document.getElementById("demo");
 function getLocation() {
     if (navigator.geolocation) {
