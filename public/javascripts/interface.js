@@ -23,9 +23,27 @@ function showPosition(position) {
 
     var myOptions = {
     center:latlon,zoom:15,
-    mapTypeId:google.maps.MapTypeId.ROADMAP,
     mapTypeControl:false,
-    navigationControlOptions:{style:google.maps.NavigationControlStyle.SMALL}
+    navigationControlOptions:{style:google.maps.NavigationControlStyle.SMALL},
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    styles: 
+        [
+            {
+                stylers: [
+                { hue: '#ff1a00' },
+                { invert_lightness: true },
+                { saturation: -100  },
+                { lightness: 33 },
+                { gamma: 0.5 }
+                ]
+            },{
+                featureType: 'water',
+                elementType: 'geometry',
+                stylers: [
+                    { color: '#2D333C' }
+                ]
+            }
+        ],
     }
     
     var map = new google.maps.Map(document.getElementById("mapholder"), myOptions);
