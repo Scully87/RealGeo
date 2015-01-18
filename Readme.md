@@ -4,6 +4,7 @@
 ##[Real Geo](http://realgeo.herokuapp.com) <-- Live Link To App
 
 ![LANDING PAGE](https://s3.amazonaws.com/uploads.hipchat.com/119067/1211609/vwWOR7jn73kUoJB/Screenshot_2015-01-18-19-56-29.png =100x20)
+<img src="https://s3.amazonaws.com/uploads.hipchat.com/119067/1211609/vwWOR7jn73kUoJB/Screenshot_2015-01-18-19-56-29.png" alt="Landing Page" style="width:50%;height:50%">
 ![MAP](https://s3.amazonaws.com/uploads.hipchat.com/119067/1211609/JqGoGym4RdMhcMb/Screenshot_2015-01-18-19-56-45.png =100x20)
 ![DESKTOP](https://s3.amazonaws.com/uploads.hipchat.com/119067/1211609/e6vS2uYbIFM8xxe/Screen%20Shot%202015-01-18%20at%2020.03.18.png)
 
