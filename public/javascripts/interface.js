@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('nav button').on("click", function() {
+    $('nav section').on("click", function() {
         $('img').fadeOut(100)
     });
 });
