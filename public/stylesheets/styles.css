@@ -1,6 +1,16 @@
 html, body, #mapholder {
   height: 100%;
+  margin: 0;
+  padding: 0;  
 }
+
+img {
+  min-height: 100%;
+  min-width: 100%;
+  display: fill;
+  margin: 0;
+  padding: 0;
+} 
 
 span {
   font-size: 2em;
