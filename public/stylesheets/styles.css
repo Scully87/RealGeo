@@ -10,7 +10,7 @@ html, body {
   min-width: 100%;
   padding: 0;
   margin: 0;
-  background-image: url('http://aoyawards.com/wp-content/themes/aoy/images/loading.gif');
+  background-color: #000000;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }

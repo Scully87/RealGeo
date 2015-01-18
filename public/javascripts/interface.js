@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('nav section').on("click", function() {
-        $('img').fadeOut(100)
+        $('img').fadeOut(2000)
     });
 });
 
